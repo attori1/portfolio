@@ -7,8 +7,8 @@
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
     sans-serif;
-  color: #1d1d1f;
-  background-color: #ffffff;
+  color: #FFAAB8;
+  background-color: #F0FFDF;
   line-height: 1.6;
 }
 .container {
@@ -17,14 +17,14 @@ body {
   padding: 0 20px;
 } /* ===== HEADER / NAVIGATION ===== */
 header {
-  background-color: #ffffff;
-  border-bottom: 1px solid #e5e5e7;
+  background-color: #F0FFDF;
+  border-bottom: 1px solid #F0FFDF;
   padding: 20px 0;
   position: sticky;
   top: 0;
   z-index: 100;
   backdrop-filter: blur(20px);
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: #F0FFDF;
 }
 nav {
   display: flex;
@@ -42,15 +42,15 @@ nav {
   gap: 40px;
 }
 .nav-links a {
-  color: #1d1d1f;
+  color: #FFAAB8;
   text-decoration: none;
   font-weight: 500;
   font-size: 1rem;
   transition: opacity 0.3s;
 } /* ===== HERO SECTION ===== */
 .hero {
-  background-color: #ffffff;
-  color: #1d1d1f;
+  background-color: #F0FFDF;
+  color: #FFD8DF;
   padding: 120px 0;
   text-align: center;
   display: flex;
@@ -77,8 +77,8 @@ nav {
 }
 .cta-button {
   display: inline-block;
-  background-color: #0071e3;
-  color: white;
+  background-color: #FFAAB8;
+  color: black;
   padding: 14px 32px;
   border-radius: 980px;
   text-decoration: none;
@@ -87,7 +87,7 @@ nav {
   font-size: 1.05rem;
 } /* ===== ABOUT SECTION ===== */
 .about {
-  background-color: #ffffff;
+  background-color: #F0FFDF;
   padding: 120px 0;
 }
 .section-title {
@@ -116,19 +116,19 @@ nav {
 .about-text h2 {
   font-size: 2.4rem;
   font-weight: 700;
-  color: #1d1d1f;
+  color: #FFAAB8;
   margin-bottom: 24px;
   letter-spacing: -0.5px;
 }
 .about-text p {
   font-size: 1.1rem;
-  color: #6f6f74;
+  color: #f4778e;
   margin-bottom: 24px;
   line-height: 1.8;
   font-weight: 400;
 } /* ===== SKILLS SECTION ===== */
 .skills {
-  background-color: #f5f5f7;
+  background-color: #A8DF8E;
   padding: 120px 0;
 }
 .skills-grid {
@@ -139,7 +139,7 @@ nav {
   flex-wrap: wrap;
 }
 .skill-card {
-  background: white;
+  background: #FFD8DF;
   padding: 40px;
   border-radius: 20px;
   text-align: center;
@@ -158,13 +158,13 @@ nav {
   margin-bottom: 12px;
 }
 .skill-card p {
-  color: #6f6f74;
+  color: #484851;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.6;
 } /* ===== PROJECTS SECTION ===== */
 .projects {
-  background-color: #ffffff;
+  background-color: #F0FFDF;
   padding: 120px 0;
 }
 .projects-grid {
@@ -178,7 +178,7 @@ nav {
   gap: 40px;
   align-items: center;
   padding: 40px;
-  background: #f5f5f7;
+  background: #FFD8DF;
   border-radius: 20px;
   transition: all 0.3s;
 }
@@ -188,12 +188,12 @@ nav {
 .project-image {
   width: 40%;
   min-height: 300px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #FA6868 0%, #5A9CB5 100%);
   border-radius: 16px;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: white;
+  color: #FACE68;
   font-size: 1.3rem;
   font-weight: 600;
 }
@@ -203,27 +203,27 @@ nav {
 .project-content h3 {
   font-size: 1.8rem;
   font-weight: 700;
-  color: #1d1d1f;
+  color: #A8DF8E;
   margin-bottom: 16px;
   letter-spacing: -0.5px;
 }
 .project-content p {
-  color: #6f6f74;
+  color: #484850;
   margin-bottom: 20px;
   font-size: 1.1rem;
   line-height: 1.7;
 }
 .project-link {
   display: inline-block;
-  color: #0071e3;
+  color: red;
   text-decoration: none;
   font-weight: 500;
   transition: color 0.3s;
   font-size: 1.05rem;
-  cursor: not-allowed;
+  cursor: not-allowed; /*changement du curseur lors du passage sur le lien*/
 } /* ===== CONTACT SECTION / FORM ===== */
 .contact {
-  background-color: #f5f5f7;
+  background-color: #A8DF8E;
   padding: 120px 0;
 }
 .contact h2 {
@@ -248,12 +248,12 @@ nav {
 .form-group label {
   font-weight: 500;
   font-size: 1rem;
-  color: #1d1d1f;
+  color: #FFAAB8;
 }
 .form-group input,
 .form-group textarea {
   padding: 12px 16px;
-  border: 1px solid #d2d2d7;
+  border: 1px solid #FFD8DF;
   border-radius: 8px;
   font-family: inherit;
   font-size: 1rem;
@@ -264,7 +264,7 @@ nav {
   min-height: 120px;
 }
 .submit-button {
-  background-color: #0071e3;
+  background-color: #FFAAB8;
   color: white;
   padding: 14px;
   border: none;
@@ -276,11 +276,11 @@ nav {
   margin-top: 16px;
 } /* ===== FOOTER ===== */
 footer {
-  background-color: #f5f5f7;
-  color: #6f6f74;
+  background-color: #F0FFDF;
+  color: #FFAAB8;
   padding: 60px 0;
   text-align: center;
-  border-top: 1px solid #e5e5e7;
+  border-top: 1px solid #FFD8DF;
 }
 .footer-content {
   display: flex;
@@ -293,7 +293,7 @@ footer {
 .footer-section h3 {
   font-size: 1rem;
   font-weight: 600;
-  color: #1d1d1f;
+  color: #fd8da0;
   margin-bottom: 12px;
 }
 .footer-section p {
@@ -306,14 +306,14 @@ footer {
   justify-content: center;
 }
 .social-links a {
-  color: #6f6f74;
+  color: #FFAAB8;
   text-decoration: none;
   font-size: 1.2rem;
   transition: color 0.3s;
 }
 .footer-bottom {
   font-size: 0.85rem;
-  color: #a1a1a6;
+  color: #A8DF8E;
   padding-top: 40px;
   border-top: 1px solid #e5e5e7;
 } /* ===== MEDIA QUERIES (RESPONSIVE) ===== */ /* Tablette (768px et moins) */
@@ -327,7 +327,7 @@ footer {
     top: 70px;
     left: 0;
     right: 0;
-    background-color: rgba(255, 255, 255, 0.95);
+    background-color: rgba(11, 42, 239, 0.95);
     flex-direction: column;
     padding: 20px;
     gap: 20px;
